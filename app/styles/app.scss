@@ -1,6 +1,48 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$c-background: #fff;
+$c-primary: #083452;
+
+//@import 'font-awesome';
 @import 'box-sizing';
+@import 'reset';
+
+.hero {
+  color: $c-background;
+  min-height: 40vh;
+  padding: 1rem 2rem;
+}
+
+.hero-bg {
+  background: url('/images/hero.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.logo {
+  display: inline;
+  width: 4rem;
+  height: 4rem;
+  // background: red;
+}
+
+.blog-name {
+  display: inline;
+  // background: pink;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  // background: orange;
+}
+
+.top-nav__list-item {
+  display: inline;
+  // background: blue;
+}
+
+.nav-list {
+  display: flex;
+}
