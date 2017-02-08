@@ -3,8 +3,9 @@
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $c-background: #fff;
-$c-primary: #083452;
+$c-primary: #140e0e;
 $c-hero-fallback: #f37f57;
+
 
 // @import 'font-awesome';
 @import 'box-sizing';
@@ -20,21 +21,44 @@ $c-hero-fallback: #f37f57;
 .container {
   max-width: 65rem;
   margin: 0 auto;
+
+  // background: red;
 }
 
 .grid {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  // background: green;
+  color: $c-primary;
 }
 
 .grid-item {
+  margin: 0 1rem;
   display: flex;
-  flex-basis: calc(100% / 2 - 4rem - 4rem);
   flex-direction: column;
+}
+
+.post-left {
+  flex: 1 1 40rem;
+  // background: yellow;
+}
+
+.post-right {
+  flex: 2 2 25rem;
+  // background: pink;
+}
+
+.headline {
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 .avatar {
   height: 4rem;
   border-radius: 50%;
+}
+
+.post-right__ad-pic {
+  width: 4rem;
+  height: 4rem;
 }
