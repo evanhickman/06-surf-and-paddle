@@ -4,7 +4,9 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $c-background: #fff;
 $c-primary: #140e0e;
-$c-hero-fallback: #f37f57;
+$c-body-link: #8c8c8c;
+$c-body-highlight: #f37f57;
+$c-fallback: #f37f57;
 
 
 // @import 'font-awesome';
@@ -12,6 +14,11 @@ $c-hero-fallback: #f37f57;
 @import 'reset';
 @import 'header';
 
+
+main a {
+  color: $c-body-link;
+  text-decoration: underline;
+}
 
 .section {
   margin: 4rem;
@@ -33,9 +40,9 @@ $c-hero-fallback: #f37f57;
 }
 
 .grid-item {
-  margin: 0 1rem;
   display: flex;
   flex-direction: column;
+  margin: 0 2rem;
 }
 
 .post-left {
@@ -45,20 +52,63 @@ $c-hero-fallback: #f37f57;
 
 .post-right {
   flex: 2 2 25rem;
+  align-items: center;
   // background: pink;
 }
 
 .headline {
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 1.5rem;
+  line-height: 4rem;
 }
 
-.avatar {
+.right-avatar {
+  align-items: center;
   height: 4rem;
   border-radius: 50%;
 }
 
+.left-avatar {
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
 .post-right__ad-pic {
-  width: 4rem;
-  height: 4rem;
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.post-left__attribution-item {
+  display: inline;
+  vertical-align: middle;
+}
+
+.post-left__text {
+  margin: 3rem 0 2rem;
+}
+
+.post-left__excerpt {
+  margin-left: 0.4rem;
+  border-left: medium $c-body-highlight solid;
+}
+
+.post-left__excerpt-quote {
+  padding-left: 1rem;
+}
+
+.post-right__ad-caption {
+  margin: 0;
+  text-align: right;
+}
+
+.post-right__blurb {
+  margin-top: 2rem;
+}
+
+.post-right__author-name {
+  text-align: center;
+}
+
+.post-right__social {
+  font-size: 0.8rem;
 }
