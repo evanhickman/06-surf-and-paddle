@@ -1,0 +1,62 @@
+.hero {
+  position: relative;
+  min-height: 80vh;
+  padding: 0.5rem 4rem;
+  background: $c-hero-fallback;
+  color: $c-background;
+}
+
+.hero-bg {
+  background: url('/images/hero.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // background: red;
+}
+
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  // background: red;
+}
+
+.nav-list__item--title {
+  display: inline;
+  // background: blue;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.hero-title {
+  min-width: 80vw;
+  margin: 0;
+  // background: blue;
+  font-size: 7rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.hero-subtitle {
+  margin: 0;
+  // background: green;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.nav-list__item + .nav-list__item {
+  margin-left: 1rem;
+}

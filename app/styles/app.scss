@@ -4,58 +4,9 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $c-background: #fff;
 $c-primary: #083452;
+$c-hero-fallback: #f37f57;
 
-//@import 'font-awesome';
+// @import 'font-awesome';
 @import 'box-sizing';
 @import 'reset';
-
-.hero {
-  min-height: 80vh;
-  padding: 0.5rem 4rem;
-  color: $c-background;
-}
-
-.hero-bg {
-  background: url('/images/hero.jpeg') no-repeat center center fixed;
-  background-size: cover;
-}
-
-.hero-text {
-  position: fixed;
-  top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-  background: red;
-}
-
-.logo {
-  width: 3rem;
-  height: 3rem;
-  // background: red;
-}
-
-.nav-list__item--title {
-  display: inline;
-  // background: blue;
-}
-
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__list-item {
-  margin: 0;
-}
-
-.nav-list {
-  display: flex;
-}
-
-.hero-title {
-  margin: 0;
-}
-
-.hero-subtitle {
-  margin: 0;
-}
+@import 'header';
