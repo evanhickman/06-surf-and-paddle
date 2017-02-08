@@ -10,9 +10,9 @@ $c-primary: #083452;
 @import 'reset';
 
 .hero {
+  min-height: 80vh;
+  padding: 0.5rem 4rem;
   color: $c-background;
-  min-height: 40vh;
-  padding: 1rem 2rem;
 }
 
 .hero-bg {
@@ -20,29 +20,42 @@ $c-primary: #083452;
   background-size: cover;
 }
 
+.hero-text {
+  position: fixed;
+  top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  background: red;
+}
+
 .logo {
-  display: inline;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   // background: red;
 }
 
-.blog-name {
+.nav-list__item--title {
   display: inline;
-  // background: pink;
+  // background: blue;
 }
 
 .top-nav {
   display: flex;
   justify-content: space-between;
-  // background: orange;
 }
 
-.top-nav__list-item {
-  display: inline;
-  // background: blue;
+.nav__list-item {
+  margin: 0;
 }
 
 .nav-list {
   display: flex;
+}
+
+.hero-title {
+  margin: 0;
+}
+
+.hero-subtitle {
+  margin: 0;
 }
