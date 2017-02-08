@@ -8,6 +8,7 @@ $c-body-link: #8c8c8c;
 $c-border: rgba(140, 140, 140, 0.5);
 $c-body-highlight: #f37f57;
 $c-fallback: #f37f57;
+$c-healine: #c26e57;
 
 
 // @import 'font-awesome';
@@ -21,4 +22,14 @@ $c-fallback: #f37f57;
   padding: 2rem;
   border-top: thin $c-border solid;
   text-align: center;
+}
+
+.footer-post {
+  width: 100vw;
+  overflow: auto;
+}
+
+.footer-post__pic {
+  width: calc(100% / 4);
+  float: left;
 }

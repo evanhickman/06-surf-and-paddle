@@ -40,6 +40,7 @@ main a {
 }
 
 .headline {
+  color: $c-healine;
   font-size: 1.5rem;
   line-height: 4rem;
 }
@@ -71,7 +72,7 @@ main a {
 
 .post-left__excerpt {
   margin-left: 0.4rem;
-  border-left: medium $c-body-highlight solid;
+  border-left: medium $c-healine solid;
 }
 
 .post-left__excerpt-quote {
