@@ -1,0 +1,96 @@
+main a {
+  color: $c-body-link;
+  text-decoration: underline;
+}
+
+.section {
+  margin: 4rem;
+  padding: 0 2rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+
+  // background: red;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  // background: green;
+  color: $c-primary;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.post-left {
+  flex: 1 1 40rem;
+  // background: yellow;
+}
+
+.post-right {
+  flex: 2 2 25rem;
+  align-items: center;
+  // background: pink;
+}
+
+.headline {
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
+.right-avatar {
+  align-items: center;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.left-avatar {
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.post-right__ad-pic {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.post-left__attribution-item {
+  display: inline;
+  vertical-align: middle;
+}
+
+.post-left__text {
+  margin: 3rem 0 2rem;
+}
+
+.post-left__excerpt {
+  margin-left: 0.4rem;
+  border-left: medium $c-body-highlight solid;
+}
+
+.post-left__excerpt-quote {
+  padding-left: 1rem;
+}
+
+.post-right__ad-caption {
+  margin: 0;
+  text-align: right;
+}
+
+.post-right__blurb {
+  margin-top: 2rem;
+}
+
+.post-right__author-name {
+  text-align: center;
+}
+
+.post-right__social {
+  font-size: 0.8rem;
+}
