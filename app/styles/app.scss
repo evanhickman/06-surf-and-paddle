@@ -5,6 +5,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $c-background: #fff;
 $c-primary: #140e0e;
 $c-body-link: #8c8c8c;
+$c-border: rgba(140, 140, 140, 0.5);
 $c-body-highlight: #f37f57;
 $c-fallback: #f37f57;
 
@@ -13,3 +14,11 @@ $c-fallback: #f37f57;
 @import 'box-sizing';
 @import 'reset';
 @import 'header';
+@import 'main';
+
+.footer-headline {
+  margin-top: 4rem;
+  padding: 2rem;
+  border-top: thin $c-border solid;
+  text-align: center;
+}
