@@ -33,7 +33,12 @@
 
 .top-nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.top-nav__right {
+  font-weight: 600;
 }
 
 .nav-list {
