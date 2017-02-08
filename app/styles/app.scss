@@ -33,3 +33,28 @@ $c-healine: #c26e57;
   width: calc(100% / 4);
   float: left;
 }
+
+.footer-nav {
+  padding: 1rem;
+  background: $c-fallback;
+  font-size: 0.7rem;
+
+  > * + * {
+    margin-left: 1rem;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__left > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright {
+  padding-left: 1rem;
+}
