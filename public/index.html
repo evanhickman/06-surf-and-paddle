@@ -9,16 +9,11 @@
 </head>
 
 <body>
-  <!-- SCRIPTS
-////////////////////////////////// -->
-
-  <script src="/app.js" charset="utf-8"></script>
-  <script src="https://use.fontawesome.com/a66028652f.js"></script>
 
   <!-- HEADER
 //////////////////////////////////-->
-
-  <header class="hero hero-bg">
+  <span class="overlay">
+  <header class="hero hero-bg hero-bg__overlay">
     <div class="container">
       <nav class="top-nav">
         <div class="top-nav__left">
@@ -40,6 +35,7 @@
       </div>
     </div>
   </header>
+  </span>
 
   <!-- MAIN
 //////////////////////////////-->
@@ -78,9 +74,9 @@
               <p>And time yet for a hundred indecisions, And for a hundred visions and revisions, Before the taking of a toast and tea.</p>
             </div>
             <div class="post-left__buttons">
-              <span><button type="button" name="button">Read Comments</button></span>
-              <span><button type="button" name="button">Read Later</button></span>
-              <span><button type="button" name="button">Share this Post</button></span>
+              <div class="post-left__buttons-button"><span><i class="fa fa-comment-o" aria-hidden="true"></i></span><span class="post-left__buttons-text">Read Comments</span></div>
+              <div class="post-left__buttons-button"><span><i class="fa fa-cloud-upload" aria-hidden="true"></i></span><span class="post-left__buttons-text">Read later</span></div>
+              <div class="post-left__buttons-button"><span><i class="fa fa-share" aria-hidden="true"></i></span><span class="post-left__buttons-text">Share</span></div>
             </div>
           </div>
 
@@ -95,7 +91,9 @@
               <span class="post-right__social"><a href="#">Instagram</a></span>
             </div>
             <div class="post-right__ad">
-              <img src="/images/ad.jpg" alt="ad" class="post-right__ad-pic">
+              <div class="post-right__ad-image">
+                <a href="#"><img src="/images/ad.jpg" alt="ad" class="post-right__ad-pic"></a>
+              </div>
               <p class="post-right__ad-caption"><a href="#">What is this?</a></p>
             </div>
             <div class="post-right__blurb">
@@ -105,6 +103,9 @@
             </div>
           </div>
         </div>
+        <div class="headline">
+          <h1 class="footer-headline">Most Popular Posts</h1>
+        </div>
       </div>
     </div>
   </main>
@@ -112,15 +113,24 @@
   <!-- FOOTER
         //////////////////////////// -->
   <footer>
-    <div class="headline">
-      <h1 class="footer-headline">Most Popular Posts</h1>
-    </div>
     <div class="footer-post">
       <div class="footer-post__pics">
-        <img src="/images/box1.jpg" alt="" class="footer-post__pic">
-        <img src="/images/box2.jpg" alt="" class="footer-post__pic">
-        <img src="/images/box3.jpg" alt="" class="footer-post__pic">
-        <img src="/images/box4.jpg" alt="" class="footer-post__pic">
+        <div class="footer-post__image">
+          <a href="#"><img src="/images/box1.jpg" alt="" class="footer-post__pic"></a>
+          <p class="footer-post__text">Gosh, what a nice boardwalk.</p>
+        </div>
+        <div class="footer-post__image">
+          <a href="#"><img src="/images/box2.jpg" alt="" class="footer-post__pic"></a>
+          <p class="footer-post__text">If you see the blue umbrellas, you're here.</p>
+        </div>
+        <div class="footer-post__image">
+          <a href="#"><img src="/images/box3.jpg" alt="" class="footer-post__pic"></a>
+          <p class="footer-post__text">Ferris wheel anyone?</p>
+        </div>
+        <div class="footer-post__image">
+          <a href="#"><img src="/images/box4.jpg" alt="" class="footer-post__pic"></a>
+          <p class="footer-post__text">Flowers are so rad.</p>
+        </div>
       </div>
     </div>
     <div class="footer-nav">
@@ -143,8 +153,11 @@
     </div>
   </footer>
 
+  <!-- SCRIPTS
+////////////////////////////////// -->
 
-
+  <script src="/app.js" charset="utf-8"></script>
+  <script src="https://use.fontawesome.com/a66028652f.js"></script>
 
 </body>
 
