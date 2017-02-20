@@ -107,14 +107,14 @@ main a {
 
 .post-left__buttons-button {
   display: inline;
-  padding: 0.3rem;
-  background: $c-body-link;
+  padding-left: 0.5rem;
+  background: $c-healine;
 }
 
 .post-left__buttons-text {
   margin-left: 0.5rem;
-  background: lighten($c-body-link, 5);
-  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  background: lighten($c-body-link, 25);
 }
 
 .post-right__ad-caption {
